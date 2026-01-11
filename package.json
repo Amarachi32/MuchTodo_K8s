@@ -1,0 +1,13 @@
+{
+  "name": "muchtodo-node",
+  "version": "1.0.0",
+  "description": "Simple In-Memory Todo API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^9.1.2"
+  }
+}
