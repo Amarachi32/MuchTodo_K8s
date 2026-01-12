@@ -16,6 +16,7 @@ spec:
       containers:
       - name: backend
         image: muchtodo-backend:latest # Local image loaded into Kind
+        imagePullPolicy: IfNotPresent 
         ports:
         - containerPort: 3000
         resources:
